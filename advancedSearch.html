@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advanced Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav pull-right nav-padding">
+        <li><a href="index.html">Google Search</a></li>
+      </ul>
+    </nav>
+    <div class="adv-search-container">
+      <form
+        class="form-search form-horizontal"
+        action="https://google.com/search"
+      >
+        <div class="adv-search-row">
+          <div class="control-group">
+            <div class="adv-search-label">
+              <div class="adv-search-form">
+                <label>all these words:</label>
+              </div>
+            </div>
+            <div class="jYcx0e">
+              <div class="adv-search-form-padding">
+                <input type="text" name="as_q" class="search-query" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="adv-search-row">
+          <div class="control-group">
+            <div class="adv-search-label">
+              <div class="adv-search-label-text">
+                <label>this exact word or phrase:</label>
+              </div>
+            </div>
+            <div class="adv-search-form">
+              <div class="adv-search-form-padding">
+                <input type="text" name="as_epq" class="search-query" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="adv-search-row">
+          <div class="control-group">
+            <div class="adv-search-label">
+              <div class="adv-search-label-text">
+                <label>any of these words:</label>
+              </div>
+            </div>
+            <div class="adv-search-form">
+              <div class="adv-search-form-padding">
+                <input type="text" name="as_oq" class="search-query" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="adv-search-row">
+          <div class="control-group">
+            <div class="adv-search-label">
+              <div class="adv-search-label-text">
+                <label>none of these words:</label>
+              </div>
+            </div>
+            <div class="adv-search-form">
+              <div class="adv-search-form-padding">
+                <input type="text" name="as_eq" class="search-query" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="control-group">
+          <input
+            type="submit"
+            class="adv-search-btn adv-search-btn-action"
+            value="Google Search"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

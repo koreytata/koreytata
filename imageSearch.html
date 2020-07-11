@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      media="screen"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav pull-right nav-padding">
+        <li><a href="index.html">Google Search</a></li>
+      </ul>
+    </nav>
+    <div class="main text-center">
+      <form
+        class="form-search form-horizontal"
+        action="https://google.com/search"
+      >
+        <div class="control-group">
+          <input type="text" name="q" class="search-query search-bar" />
+          <input type="hidden" name="tbm" value="isch" />
+        </div>
+        <div class="control-group">
+          <input type="submit" class="search-btn" value="Google Search" />
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
